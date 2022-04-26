@@ -24,7 +24,6 @@ def main():
     mask = mask0 + mask1
 
 #TRANSFORMANDO IMAGEM EM BINÁRIA
-    
     img_bin = cv2.threshold(mask, 200, 255, cv2.THRESH_BINARY)
 
 #PROCURANDO O CONTORNO
