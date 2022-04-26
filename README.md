@@ -1,1 +1,2 @@
 # fsi
+Dependencias Numpy, OpenCV
